@@ -4,13 +4,13 @@ One of the super simple and super cool python program that shortens any url give
 
 ## Usage
 
-i) Clone the repository
+* Clone the repository
 
-ii) Install dependencies 
+* Install dependencies 
 
 `$ pip install -r requirements.txt`
 
-iii) Run the program
+* Run the program
 
 `$ python ./shortener.py`
 
