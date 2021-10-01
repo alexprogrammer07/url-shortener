@@ -2,10 +2,10 @@ import pyshorteners  # Importing package by which links can be shortened
 
 print("Simple URL shortener :) ")
 
-while 1:
+while True:
     print("\nEnter 'Q' to Quit the program")
 
-    link = input("Enter the Link to shorten:\n").lower()  # Inputs and stores url in lowercase
+    link = input("Enter the Link to shorten:\n")  # Inputs and stores url in lowercase
 
     if link == "q" or link == "quit":
         exit(0)
