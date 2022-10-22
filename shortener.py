@@ -15,3 +15,4 @@ while True:
     shortened_link = shortener.tinyurl.short(link)  # using tinyurl.com for shortening the link
 
     print(shortened_link)  # Printing the shortened link
+    print(type(link))       #get the class thelink variable
